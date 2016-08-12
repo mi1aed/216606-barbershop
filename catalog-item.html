@@ -2,13 +2,17 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Барбершоп «Бородинский» - Страница товара</title>  
+  <title>Барбершоп «Бородинский» - Страница товара</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="main-header"> 
     <div class="container">
-      <a class="main-logo" href="#"><img src="http://placehold.it/170x80" alt="Barbershop"></a>
-       <nav class="main-navigation">
+      <nav class="main-navigation">
+        <a class="main-logo" href="index.html">
+          <img src="img/small-logo.png" alt="Barbershop">
+        </a>
         <ul>
           <li>
             <a href="#">Информация</a>
@@ -33,14 +37,14 @@
     </div>        
   </header>
   <main class="container">
-    <h1>НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</h1> <!--уточнить писать в коде заглавными или строчными, а потом стилизацию в css-->
+    <h1 class="item-title">НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</h1> <!--уточнить писать в коде заглавными или строчными, а потом стилизацию в css-->
     <nav class="breadcrubs">
         <ul>
           <li>
-            <a href="#">Главная</a>
+            <a href="index.html">Главная</a>
           </li>
           <li>
-            <a href="#">Магазин</a>
+            <a href="catalog.html">Магазин</a>
           </li>
           <li>
             <a href="#">Средства для ухода</a>
@@ -52,12 +56,12 @@
       </nav>
     <section>
       <div class="gallery-main">
-       <img src="http://placehold.it/460x500" alt="Фотография 1">
+       <img src="img/gallary-image-1.png" width="486" height="524" alt="Фотография 1">
       </div>
       <div class="gallery-slider">
-	    <img class="gallery-preview" src="http://placehold.it/150x140" alt="фотография 2">
-        <img class="gallery-preview" src="http://placehold.it/150x140" alt="фотография 3">
-		<img class="gallery-preview" src="http://placehold.it/150x140" alt="фотография 4">
+	    <img class="gallery-preview" src="img/gallary-image-2.png" width="166" height="175" alt="фотография 2">
+        <img class="gallery-preview" src="img/gallary-image-3.png" width="166" height="175" alt="фотография 3">
+		<img class="gallery-preview" src="img/gallary-image-4.png" width="166" height="175" alt="фотография 4">
       </div>
     </section>
     <section class="item-description">
@@ -71,10 +75,10 @@
         стать отличным подарком.</p>
     </section>
     <div class="item-buy">
-      <div class="catalog-price">2900 руб.</div>
+      <span class="catalog-price">2900 руб.</span>
       <a class="btn catalog-buy" href="#">Купить</a>
     </div>
-    <section class="item-package">
+    <section class="item-description">
       <b>В набор входят:</b>
       <ul>
         <li>Средство для умывания (50 мл)</li>
