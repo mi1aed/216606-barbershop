@@ -1,13 +1,13 @@
 body { 
   font-size: 14px;
-  font-family: PT Sans Narrow Bold;
-  font-weight: 700;
-  /*color: white;*/
+  font-family: PT Sans Narrow;
+  font-weight:  Bold;
   text-transform: uppercase;
   line-height: 24px;
-  /*background-image: url("/img/main-bg.jpg");*/
+  background-image: url("/img/main-bg.jpg");
   background-size: 1122px auto;
-  /*background-color: #000000;*/
+  color: #f7f4f1;
+  background-color: black;
   background-repeat: no-repeat;
   background-position: 50% 3px;
 }
@@ -24,11 +24,18 @@ body {
   margin: 0 auto;
 }
 
-.main-header {
+.main-header {                /*что-то я перемудрил с хедером и меню*/
   margin-bottom: 60px;
-  min-height: 72px;
+  min-height: 70px;
+  background-color: #000000;
 }
-
+.main-header a{
+  display: block;
+  color: #f7f4f1;
+  padding: 25px 0px;
+  text-decoration: none;
+  
+}
 .main-header .main-logo {
   float: left;
 }
@@ -46,21 +53,30 @@ body {
   width: 780px;
   font-size: 0;
 }
+
+.main-navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
 .main-navigation li {
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0 20px;
 }
 
 .user-block {
   float: right;
-  min-height: 72px;
+  min-height: 70px;
   width: 140px;
 }
 
 h1 {
   font-size: 30px;
-  font-family: PT Sans Narrow Bold;
-  font-weight: 700;
+  font-family: PT Sans Narrow;
+  font-weight: bold;
   color: #000000;
   text-transform: uppercase;
   line-height: 42px;
@@ -68,14 +84,16 @@ h1 {
 
 h2 {
   font-size: 24px;
-  font-family: PT Sans Narrow Bold;
-  font-weight: 700;
   color: #000000;
-  text-transform: uppercase;
   line-height: 30px;
 }
 .features {
   margin-bottom: 80px;
+  text-align: center;
+}
+.features b {
+  font-size: 30px;
+  line-height: 42px;
 }
 
 .features-item {
@@ -183,6 +201,10 @@ figure {
   float: left;
   width: 460px;
   min-height: 670px;
+}
+
+.gallary .gallary-main {  /*не могу понять почему margin > 20px*/
+  margin-bottom: 20px;
 }
 .gallary .gallary-slider img {
   float: left;
