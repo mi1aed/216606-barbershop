@@ -22,12 +22,14 @@ body {
   width: 940px;
   padding: 0 10px;
   margin: 0 auto;
+  outline: 1px solid yellow;
 }
 
 .main-header {                /*что-то я перемудрил с хедером и меню*/
   margin-bottom: 60px;
   min-height: 70px;
   background-color: #000000;
+  outline: 1px solid yellow;
 }
 .main-header a{
   display: block;
@@ -46,12 +48,14 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
+  outline: 1px solid yellow;
 }
 
 .main-navigation {
   float: left;
   width: 780px;
   font-size: 0;
+  outline: 1px solid yellow;
 }
 
 .main-navigation ul{
@@ -71,6 +75,7 @@ body {
   float: right;
   min-height: 70px;
   width: 140px;
+  outline: 1px solid yellow;
 }
 
 h1 {
@@ -80,6 +85,7 @@ h1 {
   color: #000000;
   text-transform: uppercase;
   line-height: 42px;
+  outline: 1px solid yellow;
 }
 
 h2 {
@@ -90,6 +96,7 @@ h2 {
 .features {
   margin-bottom: 80px;
   text-align: center;
+  outline: 1px solid yellow;
 }
 .features b {
   font-size: 30px;
@@ -110,35 +117,42 @@ h2 {
 .index-content {
   padding: 50px 80px;
   margin-bottom: 35px;
+  outline: 1px solid yellow;
 }
 
 .index-content-left {
   float: left;
   width: 380px;
+  outline: 1px solid yellow;
 }
 
 .index-content-right {
   float: right;
   width: 300px;
+  outline: 1px solid yellow;
 }
 
 .main-footer {
   margin-top: 65px;
   padding-top: 60px;
   padding-bottom: 40px;
+  outline: 1px solid yellow;
 }
 .footer-contacts {
   float: left;
   width: 320px;
   margin-right: 60px;
+  outline: 1px solid yellow;
 }
 .footer-social {
   float: left;
   width: 180px;
+  outline: 1px solid yellow;
 }
 .footer-copyright {
   float: right;
   width: 180px;
+  outline: 1px solid yellow;
 }
 
 /*catalog*/
@@ -150,6 +164,7 @@ figure {
 
 .breadcrumbs {
   margin-left: -40px;
+  outline: 1px solid yellow;
 }
 .breadcrumbs li {
   display: inline-block;
@@ -171,6 +186,7 @@ figure {
   font-size: 0;
   float: right;
   width: 700px;
+  outline: 1px solid yellow;
 }
 
 .catalog-container .catalog-item {
@@ -201,6 +217,7 @@ figure {
   float: left;
   width: 460px;
   min-height: 670px;
+  outline: 1px solid yellow;
 }
 
 .gallary .gallary-main {  /*не могу понять почему margin > 20px*/
@@ -219,6 +236,7 @@ figure {
   width: 390px;
   float: right;
   margin-bottom: 20px;
+  outline: 1px solid yellow;
 }
 
 .item-description .item-stat {
